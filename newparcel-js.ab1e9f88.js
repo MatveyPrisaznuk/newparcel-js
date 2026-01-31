@@ -1,0 +1,7 @@
+var e={};e=JSON.parse('[{"name":"The Witcher 3: Wild Hunt","genre":"RPG","platforms":["PC","PS4","Xbox One","Switch"],"rating":9.8,"images":"https://upload.wikimedia.org/wikipedia/ru/a/a2/The_Witcher_3-_Wild_Hunt_Cover.jpg"},{"name":"Minecraft","genre":"Sandbox","platforms":["PC","PS4","Xbox One","Switch","Mobile"],"rating":9.2,"images":"https://cakeshop.com.ua/images/EYYI8OCSHKwUTasZl7qeF-Lwqp_mIkgEAOr0chiac2w/w:5000/bG9jYWw/6Ly8vY2FrZXNob3AuY29tLnVhL3B1YmxpY19odG1sL3N0b3JhZ2UvYXBwL3B1YmxpYy9pbWcvcHJvZHVjdC84OTY0XzEuanBn"},{"name":"Cyberpunk 2077","genre":"RPG","platforms":["PC","PS4","PS5","Xbox One","Xbox Series X"],"rating":7.5,"images":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7OtNYofKriu0yY0vvkoEAj_tQi9SaupJpZw&s"},{"name":"Among Us","genre":"Party / Social Deduction","platforms":["PC","Mobile","Switch"],"rating":8.1,"images":"https://beze.com.ua/image/cache/catalog/New-Directory/Pischevaya-pechat/amongasiki-vafka-beze-640x640.jpg"},{"name":"God of War","genre":"Action / Adventure","platforms":["PS4","PS5"],"rating":9.7,"images":"https://upload.wikimedia.org/wikipedia/ru/5/5a/God_of_War_2018_cover.jpg"}]');let a=document.querySelector(".btn"),i=document.querySelector(".list");a.addEventListener("click",()=>{var a;i.innerHTML=((a=e)&&a.__esModule?a.default:a).map(({images:e,name:a,rating:i,genre:t})=>`<li>
+    <img src="${e}" alt="${a}">
+    <h2>${a}</h2>
+    <h3>${i}</h3>
+    <p>${t}</p>
+</li>`).join("")});
+//# sourceMappingURL=newparcel-js.ab1e9f88.js.map

@@ -1,0 +1,1 @@
+{"mappings":"ACAA","sources":["newparcel-js.1d54ea94.css","src/style.css"],"sourcesContent":["h1 {\n  color: #0ff;\n  font-size: 25px;\n}\n/*# sourceMappingURL=newparcel-js.1d54ea94.css.map */\n","h1 {\r\n    color: aqua;\r\n    font-size: 25px;\r\n}"],"names":[],"version":3,"file":"newparcel-js.1d54ea94.css.map"}
